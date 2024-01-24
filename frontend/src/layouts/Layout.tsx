@@ -8,7 +8,7 @@ const Layout = () => {
     <div className=" font-hk-grotesk flex flex-col min-h-screen">
       <Header />
       <Hero />
-      <div className=" max-w-7xl mx-auto py-10 flex-1">
+      <div className=" container mx-auto py-10 flex-1">
         <Outlet />
       </div>
       <Footer />
